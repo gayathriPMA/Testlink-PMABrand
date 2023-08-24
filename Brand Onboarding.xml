@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Brand Onboarding" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[<p>&nbsp;As a Brand should able to create account successfully</p>]]> 
+</details>
+<testcase internalid="95" name="BS001">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify When click on 'Create an account' user redirected to signup screen</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL(https://dev.pickmyad.com/brand) should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started free'&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should redirected to signup screen successfully and URL path should be (https://dev-app.pickmyad.com/auth/signup)</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="105" name="BS002">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand by filling required fields</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter Full name in the full name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter company name in the comapany name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter email address in the email textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter valid mobile number in the textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Textbox should accept entered mobile number</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Dropdown should display the selected source</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should signup successfully and redirected to OTP verification screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="115" name="BS003">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand without filling required fields</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on first name and skip the without enterig name</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Error message should display &quot;Full name is required&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on company name and skip the without enterig name</p>
+<p>&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display &quot;Company name is required&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Email address' and skip without entering email address</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Error message should display &quot;Email address is required&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Email address' and skip without entering email address</p>
+<p>&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display &quot;Mobile number is required&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Skip source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display &quot;Source is required&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>'Create an account' button should not be enabled.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="127" name="BS004">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand by filling invalid email address</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter First name in the first name field</p>]]></actions>
+	<expectedresults><![CDATA[<p>Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter company name in the comapany name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter invalid email address</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Error message should display &quot;Enter valid email address&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter valid mobile number in the textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Textbox should accept entered mobile number</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Dropdown should display the selected source</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>'Create an account' button should not be enabled.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="136" name="BS005">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand by filling invalid mobile number</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter first name in the first name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter company name in the comapany name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter valid email address in the email field</p>]]></actions>
+	<expectedresults><![CDATA[<p>Textbox should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter invalid mobile number in the textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display 'Enter valid mobile number'</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Dropdown should display the selected source</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>'Create an account' button should not be enabled.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="145" name="BS006">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand by filling already registered email address</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter First name in the first name field</p>]]></actions>
+	<expectedresults><![CDATA[<p>Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter company name in the comapany name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter email address</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display &quot;Email address already taken&quot;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter valid mobile number in the textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Textbox should accept entered mobile number</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Dropdown should display the selected source</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>'Create an account' button should not be enabled.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="154" name="BS007">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[41]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify whether user able to signup as a brand by filling already registered mobile number</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Get started for free'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to Signup screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter first name in the first name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter company name in the comapany name text box</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Text box should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter valid email address in the email field</p>]]></actions>
+	<expectedresults><![CDATA[<p>Textbox should accept the entered data</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter mobile number in the textbox</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display 'Mobile number already exist'</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select source from the 'Where you heared about us?' field</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Dropdown should display the selected source</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'create an account' button</p>]]></actions>
+	<expectedresults><![CDATA[<p>'Create an account' button should not be enabled.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[First Name:
+Company name:
+Email address:
+Mobile number:
+Where you heared about us?]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="163" name="BS008">
+	<node_order><![CDATA[107]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify whether user is redirected to OTP screen after filling the signup form</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Filled signup form with valid mobile number</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on 'Create an account'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should be redirected to OTP screen successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="166" name="BS009">
+	<node_order><![CDATA[108]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify by filling valid OTP user able to proceed onboard screen</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Signup form details are filled with valid mobile number</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter valid OTP</p>]]></actions>
+	<expectedresults><![CDATA[<p>Mobile number is verified successfully and user redirected to onboard screen successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[OTP:]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="169" name="BS010">
+	<node_order><![CDATA[109]]></node_order>
+	<externalid><![CDATA[44]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify by filling invalid OTP user able to proceed onboard screen</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Signup form details are filled with valid mobile number</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Enter valid OTP</p>]]></actions>
+	<expectedresults><![CDATA[<p>Mobile number is verified successfully and user redirected to onboard screen successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[OTP:]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite>
