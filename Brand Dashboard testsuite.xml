@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Checking Brand Dashboard" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="3" name="TC001">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check user able to click on Dashboard from side nav</p>]]></summary>
+	<preconditions><![CDATA[<p>Pickmyad URL is up and running(https://pickmyad.com/auth)</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Login as Brand</p>]]></actions>
+	<expectedresults><![CDATA[<p>Should loggedin as brand successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should redirected to Dashboard screen.</p>
+<p>URL path should be changed with /dashboard.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8" name="TC002">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check as a user able to view my username in Dashboard section as per design</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Should logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>Should display 'Hi username' successfully and UI should be as per design</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="10" name="TC003">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check user able to view 'All campaigns' count card in Dashboard</p>]]></summary>
+	<preconditions><![CDATA[<p>Pickmyad URL is up and running(https://pickmyad.com/auth)</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Should display the 'All campaign' card with icon as per design successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="61" name="TC004">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check user able to view total count of campaign created</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Should display the total number of campaign for the brand successfully.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="65" name="TC005">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify when user click on 'All campaign' it should redirect to campaign table</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Loggedin as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>
+<p>Click on 'All campaign' card</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should redirect to campaign table successfully and display the all campaign details if exist.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="68" name="TC006">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check whether user able to view 'Active campaign' card</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Loggedin as user</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view Active campaign card successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="12" name="TC007">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check user able to view 'Active campaign' count in card with icon as per design</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Logged in as Brand</p>
+<p>&nbsp;</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view total count of active campaign suceessfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="72" name="TC008">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify when i click on Active campaign card should redirect to Campaign section and display the filtered results of active campaign</p>
+<p>&nbsp;</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>
+<p>Click on Active campaign card</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Should redirect to active campaign list successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="75" name="TC009">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check user able to view Draft campaign card with icon as per design</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Loggedin as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able view 'Draft campaign' card successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="14" name="TC010">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check user able to view 'Draft campaign' count in a card as per design</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Clcik on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view Draft campaign&nbsp; card successfully as per design</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="79" name="TC011">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify when click on 'Draft campaign' filtered result of campaign should display successfully</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>
+<p>Click on Draft campaign card</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view filtered results of draft campaign successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="16" name="TC012">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check as a user able to view completed campaign count in a card as per design</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Loggedin as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on Dasboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view complated campaign card successfully</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="81" name="TC013">
+	<node_order><![CDATA[12]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check total count of completed campaign is displaying</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should able to view completed campaign card successfully.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="83" name="TC014">
+	<node_order><![CDATA[13]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify when click on 'Completed campaign' the user is redirected to filtered results of completed campaign successfully.</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Logged in as Brand</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Click on Dashboard</p>
+<p>Click on 'Completed campaign'</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;User should successfully view completed campaign list.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
