@@ -583,4 +583,104 @@ Where you heared about us?]]></value>
 		</requirement>
 	</requirements>
 </testcase>
+
+<testcase internalid="172" name="BS011">
+	<node_order><![CDATA[110]]></node_order>
+	<externalid><![CDATA[45]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify whether user able to proceed onboard screen without filling OTP</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL is up and running</p>
+<p>Signup form details are filled with valid mobile number</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on OTP field skip without entering mobile number</p>]]></actions>
+	<expectedresults><![CDATA[<p>Error message should display 'Enter OTP' and Verify button should be disabled</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[OTP:]]></value>
+	</custom_field>
+</custom_fields>	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Brand Signup functionality]]></req_spec_title>
+			<doc_id><![CDATA[Req1]]></doc_id>
+			<title><![CDATA[Register as a Brand]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="175" name="BS012">
+	<node_order><![CDATA[111]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if the timer becomes 0 'Resend OTP' button is enabled</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Completed signup form by filling valid details</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="177" name="BS013">
+	<node_order><![CDATA[112]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify when click on 'Resend OTP' timer will be enabled for OTP</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be and running</p>
+<p><span style="background-color: rgb(238, 238, 238); font-family: &quot;Trebuchet MS&quot;, Arial, Verdana, sans-serif; font-size: 11.7px;">Completed signup form by filling valid details</span></p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="179" name="BS014">
+	<node_order><![CDATA[113]]></node_order>
+	<externalid><![CDATA[48]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Verify after successful OTP verification user redirected to stepper screen</p>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>Mobile OTP verified successfully</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="181" name="BS015">
+	<node_order><![CDATA[114]]></node_order>
+	<externalid><![CDATA[49]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Check stepper screen title is displayed as 'select your languages for communication'</p>
+<h1 _ngcontent-dtd-c223="" style="box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgba(209,213,219,var(--tw-border-opacity)); border-image: initial; --tw-border-opacity: 1; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; margin: 0px; font-size: 1.5rem; line-height: 2rem; --tw-text-opacity: 1; font-family: Figtree, sans-serif; text-align: center;">&nbsp;</h1>]]></summary>
+	<preconditions><![CDATA[<p>&nbsp;URL should be up and running</p>
+<p>OTP should be verified successfully</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[Test Input/Test Data]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
 </testsuite>
